@@ -16,7 +16,7 @@ void totalandaverage(int marks[10][5], int total[], float average[]) {
 		for (int j = 0; j < 5; j++) {
 			total[i] += marks[i][j];
 		}
-		average[i] = (float)total[i] / 5; // Fixed integer division
+		average[i] = (float)total[i] / 5; 
 	}
 }
 
